@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FoodiesHub | Destination of every Food Cravings</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="css/phone.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="Background-Images/Logo.jpg" alt="FoodiesHub.com" style="border-radius: 50%;">
+        </div>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#services-container">Services</a></li>
+            <li class="item"><a href="#client-section">Our Clients</a></li>
+            <li class="item"><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1 class="h-primary" style="text-shadow: 2px 2px black;">Welcome to Foodies Hub : The Destination of every Food Cravings !</h1>
+        <p style="text-shadow: 2px 2px black;">We believe that great food is more than just sustenance – it's an art form, a cultural experience, and </p>
+        <p style="text-shadow: 2px 2px black;">a reflection of the love and passion that goes into its creation.</p>
+        <button class="btn" onclick="Order()">Order Now</button>
+    </section>
+
+    <section id="services-container">
+        <h1 class="h-primary center">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="img/1.png" alt="">
+                <h2 class="h-secondary center">Fast Foods</h2>
+                <p class="center">Indulge in the ultimate fast food experience with our best and ultimate selection of
+                    classics and specialties. Whether you're on the go or looking for a quick bite, our fast food
+                    offerings are sure to hit the spot every time.
+                </p>
+            </div>
+            <div class="box">
+                <img src="img/2.png" alt="">
+                <h2 class="h-secondary center">Caterings</h2>
+                <p class="center">Elevate your events with our exceptional catering services, tailored to meet your
+                    every need. Whether it's a corporate luncheon, wedding reception, or family gathering, our
+                    experienced team will work closely with you to create a customized menu that reflects your unique
+                    vision and exceeds your expectations.</p>
+            </div>
+            <div class="box">
+                <img src="img/3.png" alt="">
+                <h2 class="h-secondary center">Bulk Delivery</h2>
+                <p class="center">.Enjoy the convenience of bulk delivery, bringing the delicious flavors of our fast
+                    food favorites straight to your doorstep. 
+                    With prompt and reliable delivery, you can count on us to deliver fresh, hot meals right when you
+                    need them, making mealtime a breeze no matter the occasion./p>
+            </div>
+        </div>
+    </section>
+    <section id="client-section">
+        <h1 class="h-primary center">Our Clients</h1>
+        <div id="clients">
+            <div class="client-item">
+                <img src="img/logo1.png" alt="Our Client">
+            </div>
+            <div class="client-item">
+                <img src="img/logo2.png" alt="Our Client">
+            </div>
+
+            <div class="client-item">
+                <img src="img/logo4.png" alt="Our Client">
+            </div>
+            <div class="client-item">
+                <img src="img/logo3.png" alt="Our Client">
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <h1 class="h-primary center" style="color: white; text-shadow: 2px 2px black;">Queries and Feedbacks</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email: </label>
+                    <input type="email" name="name" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number: </label>
+                    <input type="phone" name="name" id="phone" placeholder="Enter your phone">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message: </label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="center">
+            Copyright &copy; www.FoodiesHub.com. All rights reserved!
+        </div>
+    </footer>
+
+    <script>
+        function Order() {
+            alert("Sorry, We are closed right now !");
+        }
+    </script>
+
+</body>
+
+</html>
